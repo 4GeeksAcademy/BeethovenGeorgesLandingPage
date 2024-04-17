@@ -3,6 +3,7 @@ import React from "react";
 
 // include your styles into the webpack bundle
 import Jumbotron from "./jumbotron";
+import CardApp from "./card"
 
 function Content() {
     return (
@@ -11,11 +12,16 @@ function Content() {
             width:'80%',
             backgroundColor: 'powderblue',
             display:'flex',
-            margin:'auto'
+            margin:'auto',
+            //marginBottom:'10px'
           }}>
-            
-                    <Jumbotron />
+                  <div><Jumbotron /></div>
+                  
+                    
+                  
+                    
                 </div>
+                  
     );
   }
   

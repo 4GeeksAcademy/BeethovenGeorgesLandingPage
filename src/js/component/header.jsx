@@ -11,8 +11,8 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function NavBar() {
   return (
-    
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="bg-body-tertiary">
+    //style={{ position:'fixed'}}
+    <Navbar collapseOnSelect expand="lg" bg="dark"  sticky="top"  variant="dark" className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="#home">Start Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
